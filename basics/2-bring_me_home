@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# Get the current username
+user=$(whoami)
+
+# Get the home directory of the user using getent
+home_dir=$(getent passwd "$user" | cut -d: -f6)
+
+# Change to the home directory
+cd "$home_dir" || { echo "Failed to change directory."; exit 1; }
+
+# Confirm the directory change
+echo "Changed to home directory: $(pwd)"
+
