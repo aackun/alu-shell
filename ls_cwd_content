@@ -1,0 +1,10 @@
+total 12
+drwxr-xr-x 6 root root  144 Jun 16 02:37 .
+drwxr-xr-x 1 root root  150 Jun  4 01:27 ..
+-rwxr-xr-x 1 root root   36 Jun 16 02:37 8-cwd_state
+drwxr-xr-x 2 root root 4096 May 30 09:29 basics
+drwxr-xr-x 8 root root  185 Jun  9 04:51 .git
+drwxr-xr-x 2 root root  312 Jun  9 05:06 io_redirections_and_filters
+-rw-r--r-- 1 root root    0 Jun 16 02:37 ls_cwd_content
+drwxr-xr-x 2 root root   76 May 30 09:29 permissions
+-rw-r--r-- 1 root root   17 May 30 09:29 README.md
