@@ -1,0 +1,2 @@
+#!/bin/bash
+echo "$(echo "obase=$bestchol" | cat - <(echo $(( $(( $(echo $WATER | tr '[:lower:]' '[:upper:]') )) + $(( $(echo $STIR | tr '[:lower:]' '[:upper:]') )) )) ) | dc)"
