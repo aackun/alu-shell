@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# This script displays "To infinity and beyond" forever with 2-second intervals
+# shellcheck disable=SC2034
+
+while true; do
+  echo "To infinity and beyond"
+  sleep 2
+done

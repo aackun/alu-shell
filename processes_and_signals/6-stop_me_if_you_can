@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# This script stops the 4-to_infinity_and_beyond process without using kill
+# shellcheck disable=SC2009
+
+pid=$(ps -eo pid,cmd | grep '[4]-to_infinity_and_beyond' | awk '{print $1}')
+[ -n "$pid" ] && echo "$pid" > /sys/fs/cgroup/mycgroup/cgroup.kill

@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# This script stops the 7-highlander process using kill
+# shellcheck disable=SC2009
+
+pid=$(ps -eF | grep '[7]-highlander' | awk '{print $2}')
+[ -n "$pid" ] && kill "$pid"

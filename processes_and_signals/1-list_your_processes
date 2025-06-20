@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# This script displays a user-oriented list of all running processes with hierarchy
+# shellcheck disable=SC2034
+
+ps -eF --forest
